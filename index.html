@@ -1,52 +1,50 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl-PL">
 <head>
-<meta charset="UTF-8">
-<title>Layout - Michał Dziuba</title>
+<meta charset="utf-8">
+<title>zadanie 13 Dziuba</title>
 </head>
 <body>
 
-<table width="95%" border="1" align="center">
+<table width="900" border="1" align="center">
 
 <tr>
-<td colspan="3" align="center">
-<iframe scrolling="no" width="900" height="100" name="obszar_logo" src="logo_michal_dziuba.html"></iframe>
+<td colspan="3">
+<iframe scrolling="no" width="900" height="100" name="obszar_logo" src="logo_dziuba.html" border="0"></iframe>
 </td>
 </tr>
 
 <tr>
-
 <td width="18%" align="center">
-<b>LEWE MENU</b>
-<ul>
-<li><a href="https://zse.edu.gdansk.pl/" target="obszar_glowny">Strona ZSE</a></li>
-<li><a href="https://www.kuratorium.gda.pl/" target="obszar_glowny">Kuratorium</a></li>
-<li><a href="https://www.wikipedia.org/" target="obszar_glowny">Wikipedia</a></li>
-<li><a href="https://www.google.com/" target="obszar_glowny">Google</a></li>
+<b>lewe menu</b>
+ <ul>
+ <li>
+ <a href="https://zse.edu.gdansk.pl/" target="obszar_glowny">Strona ZSE</a>
+ </li>
+ <li>
+ <a href="https://www.kuratorium.gda.pl/" target="obszar_glowny">Kuratorium</a>
+ </li>
 </ul>
 </td>
 
 <td align="center">
-<iframe width="650" height="420" name="obszar_glowny" src="glowny_michal_dziuba.html"></iframe>
-</td>
+<iframe width=650 height=420 name="obszar_glowny" src="glowny_dziuba.html" border="0"></iframe></td>
 
 <td width="18%" align="center">
-<b>PRAWE MENU</b>
-<ul>
-<li><a href="plik.zip">Kliknij, aby ściągnąć plik</a></li>
-<li><a href="tabela_dziuba.html" target="obszar_glowny">Kliknij, aby zobaczyć tabelę</a></li>
-<li><a href="formularz_dziuba.html" target="obszar_glowny">Kliknij, aby zobaczyć formularz</a></li>
-<li><a href="mailto:TWOJ_EMAIL">Kliknij, aby wysłać pocztę</a></li>
-<li><a href="z1_z6_dziuba.html" target="obszar_glowny">Kliknij, aby zobaczyć zadania Z1-Z6</a></li>
-</ul>
+<b>prawe menu</b>
+<map id="mapa_dziuba" name="mapa_dziuba">
+<area shape="poly" coords="50,5,18,60,82,60" href="plik.zip">
+<area shape="circle" coords="51,97,27" href="tabela_dziuba.html" target="obszar_glowny">
+<area shape="circle" coords="52,155,27" href="formularz_dziuba.html" target="obszar_glowny">
+<area shape="rect" coords="9,191,92,234" href="mailto:ADRES_EMAIL">
+<area shape="rect" coords="10,245,93,289" href="z1_z6_dziuba.html" target="obszar_glowny">
+</map>
+<img src="mapa_dziuba.gif" alt="Tutaj wybieram linki" usemap="#mapa_dziuba">
+
 </td>
-
-</tr>
-
 <tr>
-<td colspan="3" align="center">
-<iframe scrolling="no" width="900" height="90" name="obszar_stopka" src="stopka_michal_dziuba.html"></iframe>
-</td>
+<td colspan="3">
+<iframe scrolling="no" width=100% height=90 name="obszar_stopka" src="stopka_dziuba.html" border="0"></iframe></td>
 </tr>
 
 </table>
